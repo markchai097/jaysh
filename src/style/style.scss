@@ -1,0 +1,31 @@
+*{
+  position: relative;
+  box-sizing: border-box;
+  font-family: 'SourceHanSansTC';
+}
+a{
+  text-decoration: none;
+}
+.wrapper{
+  // padding: 0 1.5em;
+}
+.section{
+  padding: 5em 0 4em;
+  border-bottom: 1px solid#ccc;
+  
+  &:nth-child(4){
+    padding: 5em 0 2em;
+    // border-bottom:none;
+  }
+  &.section2{
+    border: none;
+    background-image: url('@/assets/images/bbgg.png');
+    background-repeat: no-repeat;
+    background-position: center bottom;
+  }
+}
+@media (max-width: 520px) {
+  .section{
+    padding: 50px 0 ;
+  }
+}
