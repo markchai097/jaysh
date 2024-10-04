@@ -13,7 +13,7 @@
         <div class="card_img">
           <img src="@/assets/images/列表圖統一用這個.jpg" alt="" />
         </div>
-        <a class="card_arrow" href="./productItem"
+        <a class="card_arrow" href="./productItem/1"
           ><i class="fas fa-long-arrow-alt-up"></i
         ></a>
       </div>
