@@ -22,7 +22,7 @@ const router = createRouter({
           name: "產品介紹",
         },
         {
-          path: "/productItem/:id",
+          path: "/productItem",
           component: ProductItem,
           name: "產品內容",
         },
